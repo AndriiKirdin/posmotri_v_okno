@@ -86,6 +86,11 @@ ol {
   padding-bottom: 5px;
 }
 
+.search-form__checkbox-list .search-form__label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .search-form__label {
   display: flex;
   width: fit-content;
@@ -102,11 +107,6 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
-}
-
-.search-form__label-text:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .visually-hidden {
@@ -142,7 +142,6 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  cursor: pointer;
   width: 19px;
   height: 19px;
   border: 1px solid #FFF;
@@ -155,10 +154,9 @@ ol {
   content: '';
   display: flex;
   place-content: center;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   background-color: #FFF;
-  cursor: pointer;
 }
 
 .button {
